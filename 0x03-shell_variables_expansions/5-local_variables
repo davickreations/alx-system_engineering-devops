@@ -1,2 +1,2 @@
 #!/bin/bash
-compgen -v | xargs -n1 echo; echo; compgen -A function
+printenv
