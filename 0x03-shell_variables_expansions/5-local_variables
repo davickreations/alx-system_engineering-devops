@@ -1,2 +1,2 @@
 #!/bin/bash
-Set
+compgen -v | xargs -n1 echo; echo; compgen -A function
